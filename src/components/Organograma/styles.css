@@ -4,23 +4,43 @@
     margin-top: 5%;
     display: flex;
 }
-  
-.tag {
-    position: relative;
-    padding: 20px;
-    min-width: 150px;
-    border-radius: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #006400;;
-    color: #fff;
-    font-size: 20px;
-}
-  
+
 .no {
     display: flex;
     align-items: center;
 }
   
+.tag {
+    position: relative;
+    padding: 20px;
+    margin-top: 7%;
+    min-width: 180px;
+    max-height: 70px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #006400;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.circulo-nivel {
+    border-radius: 100%;
+    position: relative;
+    padding: 1%;
+    margin-top: 2%;
+    margin-right: 8px;
+    margin-bottom: 0.2rem;
+    padding-right: 4%;
+    padding-left: 4%;
+    background: #689768;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
 .nivel-2 > .no {
     margin-bottom: 3em;
 }
@@ -41,7 +61,7 @@
     content: "";
     height: 1px;
     width: 20px;
-    background: #006400;;
+    background: #006400;
     position: absolute;
     right: -17px;
     top: calc(50% - 1px);
@@ -78,6 +98,7 @@ button.add {
     box-shadow: none;
     cursor: pointer;
     font-size: 14px;
+    margin-top: 7%;
   }
 
 .react-modal-overlay {
