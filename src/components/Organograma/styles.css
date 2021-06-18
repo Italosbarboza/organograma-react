@@ -161,6 +161,7 @@ form .botaoAdicionar {
     font-size: 1rem;
     margin-top: 1.5rem;
     font-weight: 600;
+    cursor: pointer;
 
     transition: filter 0.2s;
 }
@@ -178,6 +179,24 @@ form .botaoCancelar {
     font-weight: 600;
     margin-left: 3%;
     margin-right: -5%;
+    cursor: pointer;
 
     transition: filter 0.2s;
+}
+
+form .botaoEditar {
+    width: 60%;
+    padding: 0 1.9rem;
+    height: 4rem;
+    background-color: #ad2222;
+    color: #fff;
+    border-radius: 0.40rem;
+    border: 0;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: filter 0.2s;
+
 }
