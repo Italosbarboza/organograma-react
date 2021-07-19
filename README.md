@@ -1,4 +1,4 @@
-<h1>Desafio  sippi</h1> Este projeto foi feito como desafio.
+<h1>Desafio</h1> Este projeto foi feito como desafio.
 
 ## Desafio
 Fazer um organograma dinâmico com react, onde existem apenas dois níveis pós célula principal, e cada célula tem, no máximo, 5 filhos.
